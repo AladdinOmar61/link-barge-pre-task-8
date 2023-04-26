@@ -14,9 +14,9 @@ const NonSocialLinks = () => {
       {links.map((link) => {
         return (
           <div key={link.id}>
-            <p className="text-center button h2 w-80 mx-auto text-lg">
-              {link.url}
-            </p>
+            <button className="text-center button h2 w-80 mx-auto text-lg">
+              {link.title}
+            </button>
           </div>
         );
       })}
